@@ -1,0 +1,32 @@
+
+public class Welcome {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean check1=false;
+		boolean check2=true;
+		if(check1 && check2==true)
+		{
+		System.out.println("Hello Java");
+		}
+		else 
+		{
+		System.out.println("Welcome Java");
+		}
+		
+//		1. Statements
+//		2. types of statements: 3 
+//		      A. Simple
+//		      B. Conditional
+//		      C. Looping
+//		 int num=10;  //simple = single line
+//		if(num) {    // conditional statement
+//			 true
+//		} else {
+//			false
+//		}
+//		
+//		 while(true) {   //looping statement
+			 
+//		 }
+}
+}
