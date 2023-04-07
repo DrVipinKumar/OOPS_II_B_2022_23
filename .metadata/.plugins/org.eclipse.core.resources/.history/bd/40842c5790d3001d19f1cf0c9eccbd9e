@@ -1,0 +1,18 @@
+
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          String value="Sunday";
+          switch(value)
+          {
+          case "Sunday","Saturday": System.out.println("Holiday");
+          break;
+          case "Monday","Tuesday","Wednesday","Thursday","Friday":
+        	  System.out.println("Working");
+          default: 
+        	  System.out.println("It is not a week day!");
+          }
+	}
+
+}
