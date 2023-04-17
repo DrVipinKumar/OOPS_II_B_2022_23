@@ -1,0 +1,15 @@
+
+public class StringEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           String name="abc";
+           System.out.println(name.hashCode());
+           String name2="abc1";
+           System.out.println(name2.hashCode());
+           StringBuffer nameb=new StringBuffer("KIET");
+           nameb="KIeT MCA";
+           System.out.println(nameb);
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Addition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kb=new Scanner(System.in);
+		String num1=args[0];
+		String num2=args[1];
+         System.out.println("Num1="+num1+", Num2="+num2);
+         int num3=kb.nextInt();
+         System.out.println(num3);
+	}
+}

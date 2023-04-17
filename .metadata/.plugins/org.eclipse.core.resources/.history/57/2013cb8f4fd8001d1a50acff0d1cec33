@@ -1,0 +1,12 @@
+
+public class ArrayEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         int num[];  //array declaration
+         num=new int[5];
+         int num1[]=new int[10];
+         int []num2=new int[10];
+	}
+
+}

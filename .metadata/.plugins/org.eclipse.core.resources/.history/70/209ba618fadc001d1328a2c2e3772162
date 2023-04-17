@@ -1,0 +1,28 @@
+package inheritance;
+
+class AC {
+	String company;
+	String model;
+	Float capacity;
+	AC(String company, String model, Float capacity) {
+		this.company = company;
+		this.model = model;
+		this.capacity = capacity;
+	}
+	
+	String getDisplay() {
+		return "AC [company=" + company + ", model=" + model + ", "
+				+ "capacity=" + capacity + "]";
+	}
+	
+	
+}
+public class InheritanceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        AC a1=new AC("LG","2023",1.5f);
+        System.out.println(a1.getDisplay());
+	}
+
+}

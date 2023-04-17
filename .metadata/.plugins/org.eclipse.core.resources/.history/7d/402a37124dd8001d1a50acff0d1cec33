@@ -1,0 +1,15 @@
+class Msg{
+	
+	Msg(){
+		System.out.println("Message class");
+	}
+	
+}
+public class BlocksExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          
+	}
+
+}

@@ -1,0 +1,21 @@
+package inheritance;
+
+class AC {
+	String company;
+	String model;
+	Float capacity;
+	public AC(String company, String model, Float capacity) {
+		this.company = company;
+		this.model = model;
+		this.capacity = capacity;
+	}
+	
+}
+public class InheritanceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

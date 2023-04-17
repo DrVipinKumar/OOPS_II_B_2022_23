@@ -1,4 +1,3 @@
 INDEX VERSION 1.132+D:\MY DATA\Projects\MyJava\MCA_II_B\.metadata\.plugins\org.eclipse.jdt.core
 400157573.index
-1104649673.index
 1865797976.index
