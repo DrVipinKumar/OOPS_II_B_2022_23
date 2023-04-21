@@ -1,0 +1,27 @@
+package inheritance;
+
+class A {
+	
+	void display() {
+		System.out.println("Class A");
+	}
+	
+}
+class B extends A {
+	void displayB() {
+		System.out.println("Class B");
+	}
+	
+}
+
+public class InheritanceEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           A a1 =new A();
+           a1.display();
+           B b1 =new B();
+           b1.display();
+	}
+
+}

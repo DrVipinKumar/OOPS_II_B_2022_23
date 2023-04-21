@@ -23,17 +23,13 @@ class AC {
 class SmartAC extends AC{
 	boolean wifi;
 	boolean iotEnabled;
-
 	public SmartAC(String company, String model, Float capacity,
 			  boolean wifi, boolean iotEnabled) {
 		super(company,model,capacity);
-//		super.company = company;
-//		super.model = model;
-//		super.capacity = capacity;
+//		super.company = company;//		super.model = model;//		super.capacity = capacity;
 		this.wifi = wifi;
 		this.iotEnabled = iotEnabled;
-	}
-	
+	}	
 	public String getACInfo() {
 		return "SmartAC [company=" + company + ", model=" + model
 				+ ", capacity=" + capacity + ",wifi=" + wifi + ", iotEnabled=" + iotEnabled + "]";

@@ -1,0 +1,28 @@
+package encapsulation;
+
+class Student{
+	private String name;
+	private int roll;
+	private String branch;
+	public String getName() {  //getter method
+		return this.name;
+	}
+	public int getRoll() {  //getter method
+		return roll;
+	}
+	public void setBranch(String branch) {  //setter method
+		this.branch=branch;
+	}
+	public String getBranch() {
+		return this.branch;
+	}
+	
+}
+public class EncapsulationEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
