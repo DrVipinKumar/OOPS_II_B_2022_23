@@ -1,0 +1,25 @@
+package interfaces;
+interface Sum{
+	void add(int num1, int num2);//public abstract
+	double PI=3.14;  //public, static, final
+}
+
+class SumImp implements Sum{
+
+	@Override
+	public void add(int num1, int num2) {
+		// TODO Auto-generated method stub
+		System.out.println("Sum="+(num1+num2));
+	}
+	
+}
+public class InterfaceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Sum.PI);
+          SumImp s1=new SumImp();
+          s1.add(12,34);
+	}
+
+}

@@ -1,5 +1,0 @@
-package encapsulation;
-
-public record Employee() {
-
-}

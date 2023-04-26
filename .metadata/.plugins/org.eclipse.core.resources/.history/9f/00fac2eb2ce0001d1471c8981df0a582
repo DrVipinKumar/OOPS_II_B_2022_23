@@ -1,0 +1,14 @@
+package abstraction;
+
+class Display{
+	abstract void message();
+}
+
+public class AbstractClassEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package interfaces;
+interface Sum{
+	void add(int num1, int num2);//public abstract
+	double PI=3.14;  //public, static, final
+}
+
+public class InterfaceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Sum.PI);
+
+	}
+
+}
