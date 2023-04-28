@@ -1,0 +1,33 @@
+package objectcloning;
+class Rectangle implements Cloneable{
+	int l, b;
+	
+	Rectangle(int l, int b){
+		this.l=l;
+		this.b=b;
+	}
+	void getArea() {
+		System.out.println("Area ="+(l*b));
+	}
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+}
+
+public class CloningEx {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+           Rectangle r1 =new Rectangle(4,5);
+           r1.getArea();
+           Rectangle r2=r1; //shadow copy
+           r2.l=10;
+           r2.getArea();  
+           r1.getArea();
+           Rectangle r3 =(Rectangle) r1.clone();
+           r3.l=20;
+           r3.getArea();
+           r1.getArea();
+	}
+
+}

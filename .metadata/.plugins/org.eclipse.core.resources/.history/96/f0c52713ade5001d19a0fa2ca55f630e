@@ -1,0 +1,29 @@
+package innerclass;
+class Outer {
+	void display() {
+		System.out.println("Outer Class");
+	}
+	class Inner {
+		void display() {
+			System.out.println("Inner Class");
+		}
+	}
+	class Inner1 {
+		void display() {
+			System.out.println("Inner Class");
+		}
+	}
+}
+
+public class InnerClassEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Outer o1 =new Outer();
+			o1.display();
+			Outer.Inner in1 =o1.new Inner();
+			in1.display();
+			
+	}
+
+}
