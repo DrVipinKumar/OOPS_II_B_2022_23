@@ -1,0 +1,25 @@
+package javaioex;
+import java.io.*;
+public class CopyChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileReader fr=null;
+		FileWriter fw=null;
+		int ch;
+       try {
+		fr =new FileReader("src/Addition.java");
+		fw =new FileWriter("src/Addition1.java");
+		while((ch=fr.read())!=-1) {
+			fw.write(ch);
+		}
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	}
+
+}

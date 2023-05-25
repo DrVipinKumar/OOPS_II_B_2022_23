@@ -1,0 +1,21 @@
+package exceptionp;
+class Age {
+	boolean checkAge(int age)
+	{
+		if (age>=18) {
+			return true;
+		} else {
+			
+			throw new Exception("Age is less than 18");
+			
+		}
+	}
+}
+public class ThrowsAndThrow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

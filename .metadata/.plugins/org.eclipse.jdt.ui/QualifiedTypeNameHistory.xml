@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java8.Sum"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.net.ServerSocket"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+</qualifiedTypeNameHistroy>
