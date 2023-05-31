@@ -1,0 +1,20 @@
+package multithreading;
+
+public class LambdaThreadEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread t1 =new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				System.out.println("Thread");
+			}
+			
+		});
+		t1.start();
+
+	}
+
+}

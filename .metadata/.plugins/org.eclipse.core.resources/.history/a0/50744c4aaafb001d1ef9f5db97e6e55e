@@ -1,0 +1,19 @@
+package networking;
+import java.net.*;
+import java.io.*;
+public class ReadURL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  try {
+			InetAddress ip=InetAddress.getLocalHost();
+			System.out.println(ip.getHostAddress());
+			InetAddress ipout=InetAddress.getByName("google.com");
+			System.out.println(ipout.getHostAddress());
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		  
+		}
+}

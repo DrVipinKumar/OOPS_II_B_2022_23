@@ -1,0 +1,21 @@
+package networking;
+import java.net.*;
+import java.io.*;
+public class ReadURL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        try {
+			URL url =new URL("http://www.kiet.edu");
+			File f =new File(url.getPath());
+			File files[]=f.listFiles();
+			//
+				System.out.println(f.getName());
+			
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

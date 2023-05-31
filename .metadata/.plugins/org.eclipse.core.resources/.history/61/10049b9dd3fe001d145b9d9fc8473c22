@@ -1,0 +1,20 @@
+package multithreading;
+
+class Shared {
+	int items=0;
+	void getItems() {
+		System.out.println("Consumer:"+this.items);
+	}
+	void setItems(int num) {
+		this.items=num;
+	}
+}
+
+public class InterThreadEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package networking;
+import java.net.*;
+import java.io.*;
+public class ReadURL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String data;
+        try {
+			URL url =new URL("https://www.kiet.edu");
+			URLConnection file =url.openConnection();
+			BufferedReader br =new BufferedReader(new InputStreamReader(file.getInputStream()));
+			while((data=br.readLine())!=null ) {
+				System.out.println(data);
+			}
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}
