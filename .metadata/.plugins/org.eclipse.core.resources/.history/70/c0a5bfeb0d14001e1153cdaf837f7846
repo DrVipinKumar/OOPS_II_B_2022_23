@@ -1,0 +1,27 @@
+package swingexample;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+class Shapes extends JFrame{
+	Container c;
+	Shapes(){
+		setSize(600,400);
+		this.setLocationRelativeTo(null);
+		c=this.getContentPane();
+		JPanel p =new JPanel(){
+			
+		}
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+}
+public class TwoDShapes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          new Shapes();
+	}
+
+}

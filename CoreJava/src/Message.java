@@ -1,4 +1,4 @@
-class Display{
+class MDisplay{
 	void displayMessage() {
 		System.out.println("Welcome to Java");
 	}
@@ -7,13 +7,13 @@ public class Message {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		  Display msg1;  //Object Declaration;
-		  msg1=new Display(); //Object Instantiation
+		  MDisplay msg1;  //Object Declaration;
+		  msg1=new MDisplay(); //Object Instantiation
 		  msg1.displayMessage();
-		  Display msg2=new Display();
+		  MDisplay msg2=new MDisplay();
 		  msg2.displayMessage();
 		  System.out.println(msg2);
-		  new Display().displayMessage();
+		  new MDisplay().displayMessage();
 		  
 		  
 

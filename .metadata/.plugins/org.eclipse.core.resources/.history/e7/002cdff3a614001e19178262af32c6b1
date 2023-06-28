@@ -1,0 +1,21 @@
+package swingexample;
+
+import javax.swing.JFrame;
+
+class Notepad extends JFrame {
+	Notepad(){
+		setSize(600,400);
+		this.setLocationRelativeTo(null);
+		c=this.getContentPane();
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+}
+public class NotepadEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

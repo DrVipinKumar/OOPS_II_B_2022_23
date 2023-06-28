@@ -1,0 +1,31 @@
+package swingexample;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+class Notepad extends JFrame {
+	Container c;
+	JTextArea text;
+	
+	Notepad(){
+		setSize(800,600);
+		this.setLocationRelativeTo(null);
+		c=this.getContentPane();
+		text=new JTextArea();
+		c.add(new JScrollPane(text),BorderLayout.CENTER);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+}
+public class NotepadEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Notepad();
+	}
+
+}

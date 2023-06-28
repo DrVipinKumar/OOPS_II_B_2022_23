@@ -33,6 +33,7 @@ public class Example1 {
 		ThreadB r1 =new ThreadB();
 		Thread t2 =new Thread(r1,"Thread B");
 		t2.setDaemon(true);
+		System.out.println(t2.getThreadGroup());
 		t2.start();
 		
 	}
